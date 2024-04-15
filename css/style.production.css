@@ -359,3 +359,7 @@ span {
           transform: rotate(-2deg);
   /* Rotate the element on hover */
 }
+
+#no_top_margin {
+  margin-top: 0;
+}
