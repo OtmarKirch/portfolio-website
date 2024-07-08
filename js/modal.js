@@ -24,6 +24,9 @@ function openModal(project) {
   if (project === "meetApp") {
     modal.innerHTML = meetAppModalHTML;
   };
+  if (project === "pokedec") {
+    modal.innerHTML = pokedecModalHTML;
+  }
   modal.style.display = "block";
   const close = document.getElementById("close");
   close.onclick = function () {

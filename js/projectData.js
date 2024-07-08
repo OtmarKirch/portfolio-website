@@ -1,3 +1,20 @@
+const pokedecModalHTML = `
+  <div class="modal-content">
+  <span id="close">&times;</span>
+    <h2>Pokedec</h2>
+  <p>This simple JavaScript app was developed as a learning project to understand the principles of programming with JavaScript. By building this small web application, which utilizes HTML, CSS, and JavaScript to load data from an external API and allows for the detailed viewing of data points, the development process can be followed through the commit messages and branches of this project, providing insight into each step taken towards achieving the objective of creating a functional and interactive web application.</p>
+  <p> \u2192 Take a look at <a href="https://otmarkirch.github.io/simple-js-app/">the app</a></p>
+  <p> \u2192 See the code and more information on my <a href="https://github.com/OtmarKirch/simple-js-app/">GitHub repository</a></p>
+
+  <h3>Impressions</h3>
+  <p>The pokedec app at the start. It shows all Pokémon by default with their statistics.</p>
+  <img class="pokedec--presentation" src="./img/projects/pokedec/pokedec1.png" alt="">
+  <p>The input allows for searching and selecting Pokémon.</p>
+  <img class="pokedec--presentation" src="./img/projects/pokedec/pokedec2.png" alt="">
+  <p>Details of the selected Pokémon are shown.</p>
+  <img class="pokedec--presentation" src="./img/projects/pokedec/pokedec3.png" alt="">
+  </div>`;
+
 const mySciFiAppModalHTML = `
   <div class="modal-content">
   <span id="close">&times;</span>
