@@ -17,9 +17,11 @@ const modal = document.getElementById("projectModal");
 
 // Function to open the modal
 function openModal(project) {
+  if (project === "chatApp"){
+    modal.innerHTML = chatAppModalHTML;
+  }
   if (project === "mySciFiApp") {
    modal.innerHTML = mySciFiAppModalHTML;
-  
   } 
   if (project === "meetApp") {
     modal.innerHTML = meetAppModalHTML;

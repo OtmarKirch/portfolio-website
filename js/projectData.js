@@ -1,3 +1,5 @@
+
+
 const pokedecModalHTML = `
   <div class="modal-content">
   <span id="close">&times;</span>
@@ -55,3 +57,23 @@ const meetAppModalHTML = `
             
   </div>
 `;
+
+const chatAppModalHTML = `
+  <div class="modal-content">
+  <span id="close">&times;</span>
+    <h2>Chat App</h2>
+  <p>This project involves building a native real-time chat application using React Native, and Firebase. The chat application uses Firebase to authenticate users and store chat messages. The application includes features such as anonymous user authentication, chat room creation, real-time messaging, and message storage. The application also includes a responsive design, allowing users to access the chat application from various devices.</p>
+  <p> \u2192 See the code and more information on my <a href="https://github.com/OtmarKirch/chat-demo">GitHub repository</a></p>
+  <h3>Technologies</h3>
+  <p>React Native, Firebase, Expo</p>
+
+  <h3>Impressions</h3>
+  <p>The chat app at the start. It shows the login screen.</p>
+            <img id="img_login" src="./img/projects/chatApp/chatApp_startscreen.png" alt="chat app start screen">
+            <p>The chat view</p>
+            <img id="img_chat" src="./img/projects/chatApp/chatApp_chatview.png" alt="chat view">
+            <p>Sheet to add photos, images and location</p>
+            <img id="img_sheet" src="./img/projects/chatApp/chatApp_addchoice.png" alt="sheet to add photos, images and location">
+  
+
+  `
