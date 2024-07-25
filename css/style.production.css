@@ -203,6 +203,12 @@ span {
   margin-top: 0;
 }
 
+.form {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 
 @supports (display: grid) {
 
