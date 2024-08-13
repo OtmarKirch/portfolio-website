@@ -75,5 +75,24 @@ const chatAppModalHTML = `
             <p>Sheet to add photos, images and location</p>
             <img id="img_sheet" src="./img/projects/chatApp/chatApp_addchoice.png" alt="sheet to add photos, images and location">
   
+  </div>
+  `
 
+  const mySciFiAngularHTML = `
+  <div class="modal-content">
+  <span id="close">&times;</span>
+    <h2>mySciFi App Angular</h2>
+    <p>This app provides a frontend for the MyFlix API. It allows users to sign up, log in, view information about movies, and add movies to their list of favorites. The server-side code and documentation for this app can be found in this repository. A frontend has already been written in React. This project is a rewrite of the frontend in Angular.</p>
+    <p> \u2192 See the code and more information on my <a href="https://github.com/OtmarKirch/mySciFi-Angular-client">GitHub repository</a></p>
+    <p> \u2192 Take a look at <a href="https://otmarkirch.github.io/mySciFi-Angular-client/">the app</a></p>
+    <h3>Technologies</h3>
+    <p>Angular, TypeScript, Angular Material</p>
+
+    <h3>Impressions</h3>
+            <p>Viewing the movies</p>
+            <img id="img_movie" src="./img/projects/mySciFiAppAngular/Angular1.png" alt="movie view">
+            <p>Updating details</p>
+            <img id="img_profile" src="./img/projects/mySciFiAppAngular/Angular2.png" alt="profile view">
+  </div>
+  
   `

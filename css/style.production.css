@@ -313,6 +313,12 @@ span {
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
+.modal img {
+  width: 100%;
+  border: 5px solid; 
+  border-color: var(--color-bluegray);
+}
+
 #close {
   color: #aaa;
   float: right;
