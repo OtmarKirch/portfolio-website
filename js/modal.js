@@ -17,18 +17,21 @@ const modal = document.getElementById("projectModal");
 
 // Function to open the modal
 function openModal(project) {
-  if (project === "mySciFiAngular") {
+  if (project === "mySciFiAngular") { // client side with angular
     modal.innerHTML = mySciFiAngularHTML;
   }
   if (project === "chatApp"){
     modal.innerHTML = chatAppModalHTML;
   }
-  if (project === "mySciFiApp") {
-   modal.innerHTML = mySciFiAppModalHTML;
-  } 
   if (project === "meetApp") {
     modal.innerHTML = meetAppModalHTML;
   };
+  if (project === "mySciFiApp") { // server side
+   modal.innerHTML = mySciFiAppModalHTML;
+  } 
+  if (project === "SciFiApp") { // client side with react
+   modal.innerHTML = SciFiAppModalHTML;
+  } 
   if (project === "pokedec") {
     modal.innerHTML = pokedecModalHTML;
   }

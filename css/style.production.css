@@ -317,6 +317,7 @@ span {
   width: 100%;
   border: 5px solid; 
   border-color: var(--color-bluegray);
+  padding: 5px;
 }
 
 #close {

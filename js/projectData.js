@@ -24,8 +24,8 @@ const mySciFiAppModalHTML = `
   <p> \u2192 Take a look at <a href="https://myscifiapp.netlify.app/">the app</a></p>
   <p> \u2192 See the code and more information on my <a href="https://github.com/OtmarKirch/MySciFi-client">GitHub repository</a></p>
   <p> \u2192 Take a look at <a href="https://quiet-bastion-19832-9b36523e0b42.herokuapp.com/documentation.html">the server</a></p>
-  <p> \u2192 See the code and more information on my <a href="https://github.com/OtmarKirch/sci-fi-app">GitHub repository</a></p>
-  
+  <p> \u2192 See the code and more information on the server on my <a href="https://github.com/OtmarKirch/sci-fi-app">GitHub repository</a></p>
+  <p> In the following slide show you can see the development of the whole MERN stack (MongoDB, Express, React and Node.js), including the client side which is realized in another project.</p>
             <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp1.png" alt="">
             <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp2.png" alt="">
             <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp3.png" alt="">
@@ -69,11 +69,11 @@ const chatAppModalHTML = `
 
   <h3>Impressions</h3>
   <p>The chat app at the start. It shows the login screen.</p>
-            <img id="img_login" src="./img/projects/chatApp/chatApp_startscreen.png" alt="chat app start screen">
+            <img id="img_login" src="./img/projects/chatApp/ChatApp_startscreen.png" alt="chat app start screen">
             <p>The chat view</p>
-            <img id="img_chat" src="./img/projects/chatApp/chatApp_chatview.png" alt="chat view">
+            <img id="img_chat" src="./img/projects/chatApp/ChatApp_chatview.png" alt="chat view">
             <p>Sheet to add photos, images and location</p>
-            <img id="img_sheet" src="./img/projects/chatApp/chatApp_addchoice.png" alt="sheet to add photos, images and location">
+            <img id="img_sheet" src="./img/projects/chatApp/ChatApp_addchoice.png" alt="sheet to add photos, images and location">
   
   </div>
   `
@@ -92,7 +92,28 @@ const chatAppModalHTML = `
             <p>Viewing the movies</p>
             <img id="img_movie" src="./img/projects/mySciFiAppAngular/Angular1.png" alt="movie view">
             <p>Updating details</p>
-            <img id="img_profile" src="./img/projects/mySciFiAppAngular/Angular2.png" alt="profile view">
+            <img id="img_profile" src="./img/projects/mySciFiAppAngular/Angular2.png" alt="details view">
   </div>
   
   `
+
+  const SciFiAppModalHTML = `
+  <div class="modal-content">
+  <span id="close">&times;</span>
+    <h2>mySciFi App</h2>
+  <p> \u2192 Take a look at <a href="https://myscifiapp.netlify.app/">the app</a></p>
+  <p> \u2192 See the code and more information on my <a href="https://github.com/OtmarKirch/MySciFi-client">GitHub repository</a></p>
+  <p> \u2192 Take a look at <a href="https://quiet-bastion-19832-9b36523e0b42.herokuapp.com/documentation.html">the server</a></p>
+  <p> \u2192 See the code and more information on my <a href="https://github.com/OtmarKirch/sci-fi-app">GitHub repository</a></p>
+  <p> In the following slide show you can see the development of the whole MERN stack (MongoDB, Express, React and Node.js), including the server side which is realized in another project.</p>
+  
+            <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp1.png" alt="">
+            <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp2.png" alt="">
+            <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp3.png" alt="">
+            <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp4.png" alt="">
+            <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp5.png" alt="">
+            <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp6.png" alt="">
+            <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp7.png" alt="">
+            <img class="mySciFiApp--presentation" src="./img/projects/mySciFiApp/mySciFiApp8.png" alt="">
+  </div>
+`;
