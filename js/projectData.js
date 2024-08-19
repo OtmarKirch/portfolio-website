@@ -10,11 +10,11 @@ const pokedecModalHTML = `
 
   <h3>Impressions</h3>
   <p>The pokedec app at the start. It shows all Pokémon by default with their statistics.</p>
-  <img class="pokedec--presentation" src="./img/projects/pokedec/pokedec1.png" alt="">
+  <img class="pokedec--presentation" src="./img/projects/pokedec/PokedecStartView.png" alt="">
   <p>The input allows for searching and selecting Pokémon.</p>
-  <img class="pokedec--presentation" src="./img/projects/pokedec/pokedec2.png" alt="">
+  <img class="pokedec--presentation" src="./img/projects/pokedec/PokedecSearch.png" alt="">
   <p>Details of the selected Pokémon are shown.</p>
-  <img class="pokedec--presentation" src="./img/projects/pokedec/pokedec3.png" alt="">
+  <img class="pokedec--presentation" src="./img/projects/pokedec/PokedecDetails.png" alt="">
   </div>`;
 
 const mySciFiAppModalHTML = `
