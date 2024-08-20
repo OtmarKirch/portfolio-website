@@ -1,6 +1,4 @@
-
 // HTML structure for the modal in projectData.js
-
 
 // CSS for the modal
 
@@ -14,32 +12,60 @@ const modal = document.getElementById("projectModal");
 
 // When the user clicks on <span> (x), close the modal
 
-
 // Function to open the modal
 function openModal(project) {
-  if (project === "mySciFiAngular") { // client side with angular
+  // if (project === "test") {
+  //   //modal.innerHTML = testHTML;
+  //   repo = "meetApp";
+  //   async function fetchReadme(repo) {
+  //     const url = `https://api.github.com/repos/OtmarKirch/${repo}/readme`;
+  //     const response = await fetch(url, {
+  //       headers: {
+  //         Accept: "application/vnd.github.v3.raw",
+  //       },
+  //     });
+  //     if (!response.ok) {
+  //       throw new Error("Failed to fetch README");
+  //     }
+  //     const text = await response.text();
+  //     console.log(text);
+
+  //     modal.innerHTML = `
+  //     <div class="modal-content">
+  //     <h2>testheader</h2>
+  //     </div>
+  //     `;
+  //     return text;
+  //   }
+  //   fetchReadme(repo);
+  // }
+
+  if (project === "mySciFiAngular") {
+    // client side with angular
     modal.innerHTML = mySciFiAngularHTML;
   }
-  if (project === "chatApp"){
+  if (project === "chatApp") {
     modal.innerHTML = chatAppModalHTML;
   }
   if (project === "meetApp") {
     modal.innerHTML = meetAppModalHTML;
-  };
-  if (project === "mySciFiApp") { // server side
-   modal.innerHTML = mySciFiAppModalHTML;
-  } 
-  if (project === "SciFiApp") { // client side with react
-   modal.innerHTML = SciFiAppModalHTML;
-  } 
+  }
+  if (project === "mySciFiApp") {
+    // server side
+    modal.innerHTML = mySciFiAppModalHTML;
+  }
+  if (project === "SciFiApp") {
+    // client side with react
+    modal.innerHTML = SciFiAppModalHTML;
+  }
   if (project === "pokedec") {
     modal.innerHTML = pokedecModalHTML;
   }
   modal.style.display = "block";
   const close = document.getElementById("close");
   close.onclick = function () {
-  modal.style.display = "none";
-};
+    modal.style.display = "none";
+  };
 }
 
 // Listen for a click on the window

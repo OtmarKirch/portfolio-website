@@ -1,4 +1,7 @@
-
+// const testHTML = `
+// <div class="modal-content">
+// <p>Test</p>
+// </div>`;
 
 const pokedecModalHTML = `
   <div class="modal-content">
